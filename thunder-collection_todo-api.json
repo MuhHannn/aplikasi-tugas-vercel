@@ -1,0 +1,100 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "todo-api",
+    "collectionId": "25703b58-2079-4277-9f16-6974a27d93dd",
+    "dateExported": "2024-04-30T05:39:03.725Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fff511f4-8e9e-4576-ae66-36ae68a11934",
+            "colId": "25703b58-2079-4277-9f16-6974a27d93dd",
+            "containerId": "",
+            "name": "insert",
+            "url": "http://localhost:3000/api/insert",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-30T03:43:48.311Z",
+            "modified": "2024-04-30T04:13:06.333Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"todo\": \"Membuat aplikasi Qur'an\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2cd3a947-8113-49d7-9bd3-7d78f678a582",
+            "colId": "25703b58-2079-4277-9f16-6974a27d93dd",
+            "containerId": "",
+            "name": "detail",
+            "url": "http://localhost:3000/api/detail?id=3",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-30T04:13:24.262Z",
+            "modified": "2024-04-30T04:26:01.061Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "c7fc794d-db2e-4b7b-91f2-2dc304488106",
+            "colId": "25703b58-2079-4277-9f16-6974a27d93dd",
+            "containerId": "",
+            "name": "read-all",
+            "url": "http://localhost:3000/api/read-all-todo?status=false",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-30T04:16:54.703Z",
+            "modified": "2024-04-30T04:18:53.865Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "status",
+                    "value": "false",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "12f17c75-2785-4336-b287-98bff7861809",
+            "colId": "25703b58-2079-4277-9f16-6974a27d93dd",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:3000/api/update",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-30T04:20:42.470Z",
+            "modified": "2024-04-30T04:29:11.465Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 4,\n  \"todo\": \"Membuat aplikasi Al Qur'an\",\n  \"status\": true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "99cb3222-ba1e-462b-8558-d3aced20d462",
+            "colId": "25703b58-2079-4277-9f16-6974a27d93dd",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:3000/api/delete",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-30T04:26:12.399Z",
+            "modified": "2024-04-30T04:26:55.090Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "IhZbpmK-35CVmyZlHn9KaX0mtqkf-BaxiaI9wT0D8t9oT4rqj3ylZnF7SeEieZQTXC4J8lx1frVLvH-bs2q7Ww"
+}
